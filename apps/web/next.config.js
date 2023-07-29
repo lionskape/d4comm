@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["ui"],
+  transpilePackages: ["@d4comm/ui"],
   compress: false,
   experimental: {
     typedRoutes: true,
