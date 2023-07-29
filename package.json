@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -9,7 +10,7 @@
   "devDependencies": {
     "@turbo/gen": "1.10.12",
     "eslint": "8.46.0",
-    "eslint-config-custom": "workspace:*",
+    "@d4comm/eslint-config-custom": "workspace:*",
     "prettier": "3.0.0",
     "turbo": "latest"
   },
