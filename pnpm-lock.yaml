@@ -124,40 +124,6 @@ importers:
         specifier: workspace:*
         version: link:../../packages/tsconfig
 
-  apps/web-example:
-    dependencies:
-      '@d4comm/ui':
-        specifier: workspace:*
-        version: link:../../packages/ui
-      next:
-        specifier: 13.4.12
-        version: 13.4.12(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-    devDependencies:
-      '@d4comm/eslint-config-custom':
-        specifier: workspace:*
-        version: link:../../packages/eslint-config-custom
-      '@d4comm/tsconfig':
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
-      '@types/node':
-        specifier: 20.4.5
-        version: 20.4.5
-      '@types/react':
-        specifier: 18.2.17
-        version: 18.2.17
-      '@types/react-dom':
-        specifier: 18.2.7
-        version: 18.2.7
-      typescript:
-        specifier: 5.1.6
-        version: 5.1.6
-
   packages/eslint-config-custom:
     dependencies:
       '@babel/eslint-parser':
