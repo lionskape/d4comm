@@ -1,8 +1,5 @@
 module.exports = {
-  extends: ["next", "turbo", "prettier"],
-  rules: {
-    "@next/next/no-html-link-for-pages": "off",
-  },
+  extends: ["next/core-web-vitals", "turbo", "prettier"],
   parserOptions: {
     babelOptions: {
       presets: [require.resolve("next/babel")],
