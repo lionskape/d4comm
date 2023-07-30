@@ -6,7 +6,11 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
+    "check": {
+      "dependsOn": ["lint", "typecheck"]
+    },
     "lint": {},
+    "typecheck": {},
     "dev": {
       "cache": false,
       "persistent": true
